@@ -8,8 +8,8 @@ export default function Stopwatch() {
   const { secs, start, stop } = useStopwatch();
 
   return (
-    <div>
-      <p>{formatSecs(secs)} has elapsed since you opened this page.</p>
+    <div className="text-center space-y-8">
+      <p className="text-8xl">{formatSecs(secs)}</p>
       <StartStopButton onStart={start} onStop={stop} size={64} />
     </div>
   );
