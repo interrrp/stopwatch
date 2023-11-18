@@ -1,7 +1,9 @@
+import Stopwatch from "@/components/stopwatch";
+
 export default function Home() {
   return (
     <main>
-      <p>Hello, world!</p>
+      <Stopwatch />
     </main>
   );
 }
