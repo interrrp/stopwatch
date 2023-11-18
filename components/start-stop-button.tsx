@@ -25,6 +25,7 @@ export default function StartStopButton({
         }
         setStarted(!started);
       }}
+      aria-label="Start/stop"
     >
       {started ? <StopCircle size={size} /> : <PlayCircle size={size} />}
     </button>
