@@ -1,5 +1,6 @@
 "use client";
 
+import StartStopButton from "@/components/start-stop-button";
 import useStopwatch from "@/lib/stopwatch";
 import { formatSecs } from "@/lib/time";
 
@@ -9,8 +10,7 @@ export default function Stopwatch() {
   return (
     <div>
       <p>{formatSecs(secs)} has elapsed since you opened this page.</p>
-      <button onClick={start}>Start</button>
-      <button onClick={stop}>Stop</button>
+      <StartStopButton onStart={start} onStop={stop} size={64} />
     </div>
   );
 }
