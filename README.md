@@ -1,4 +1,4 @@
-<h1 align="center">⏳ Stopwatch</h1>
+<h1 align="center"><a href="https://int-stopwatch.vercel.app">⏳ Stopwatch</a></h1>
 <p align="center">A stopwatch for the web.</p>
 
 ## 🖥️ Usage
